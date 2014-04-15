@@ -13,7 +13,6 @@ describe(@"Recipe creation", ^{
         expect(recipe).to.beNil();
     });
     
-    
     it(@"should return valid object if data is passed in", ^{
         Recipe *recipe = [Recipe build:[[NSDictionary alloc] init]];
         expect(recipe).toNot.beNil();

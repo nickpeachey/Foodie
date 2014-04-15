@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E3D5EAD18FD5DDA004A68AB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3D5EAC18FD5DDA004A68AB /* BaseViewController.m */; };
+		0E3D5EB118FD5E1E004A68AB /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3D5EB018FD5E1E004A68AB /* BaseTableViewController.m */; };
 		0E8A47A218FD3927009DF82A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8A47A118FD3927009DF82A /* Foundation.framework */; };
 		0E8A47A418FD3927009DF82A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8A47A318FD3927009DF82A /* CoreGraphics.framework */; };
 		0E8A47A618FD3927009DF82A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8A47A518FD3927009DF82A /* UIKit.framework */; };
@@ -34,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E3D5EAB18FD5DDA004A68AB /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		0E3D5EAC18FD5DDA004A68AB /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		0E3D5EAF18FD5E1E004A68AB /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		0E3D5EB018FD5E1E004A68AB /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
 		0E8A479E18FD3927009DF82A /* Foodie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E8A47A118FD3927009DF82A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0E8A47A318FD3927009DF82A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -81,6 +87,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E3D5EAE18FD5E0C004A68AB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0E3D5EAB18FD5DDA004A68AB /* BaseViewController.h */,
+				0E3D5EAC18FD5DDA004A68AB /* BaseViewController.m */,
+				0E3D5EAF18FD5E1E004A68AB /* BaseTableViewController.h */,
+				0E3D5EB018FD5E1E004A68AB /* BaseTableViewController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
 		0E8A479518FD3927009DF82A = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +133,7 @@
 		0E8A47A718FD3927009DF82A /* Foodie */ = {
 			isa = PBXGroup;
 			children = (
+				0E3D5EAE18FD5E0C004A68AB /* Base */,
 				0E8A47B018FD3927009DF82A /* AppDelegate.h */,
 				0E8A47B118FD3927009DF82A /* AppDelegate.m */,
 				0E8A47B318FD3927009DF82A /* Main.storyboard */,
@@ -288,8 +306,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E8A47B818FD3927009DF82A /* ViewController.m in Sources */,
+				0E3D5EAD18FD5DDA004A68AB /* BaseViewController.m in Sources */,
 				0E8A47B218FD3927009DF82A /* AppDelegate.m in Sources */,
 				0E8A47AE18FD3927009DF82A /* main.m in Sources */,
+				0E3D5EB118FD5E1E004A68AB /* BaseTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
